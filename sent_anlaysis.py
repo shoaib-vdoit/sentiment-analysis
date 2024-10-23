@@ -4,7 +4,7 @@ import nltk
 
 nltk.download("punkt_tab")
 
-url = "https://www.cnbc.com/2024/09/28/hezbollah-leader-hassan-nasrallah-killed-in-strike-israeli-army-says.html"
+url = "https://www.cnbc.com/2024/10/23/tokyo-metro-shares-gain-40percent-on-debut-after-japans-largest-ipo-in-six-years-.html"
 article = Article(url)
 
 article.download()
