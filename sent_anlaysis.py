@@ -11,8 +11,7 @@ article.download()
 article.parse()
 article.nlp()
 
-# text = article.summary
-text = article.summary.index
+text = article.summary
 print(text)
 
 blob = TextBlob(text)
